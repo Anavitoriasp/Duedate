@@ -1,10 +1,9 @@
 # Duedate
 A small Python program that reads a list of clients and their payment due days from a text file and identifies payments that are overdue (up to 7 days) or due today.
 
-
 Requirements:
 - Python 3
-- Linux or Windows
+- Linux (tested on Ubuntu)
 
 Files:
 - duedate.py : main program
@@ -18,3 +17,5 @@ How to run:
 Notes:
 - The program uses the current month and year to calculate due dates.
 - It lists clients whose payments are overdue by up to 7 days or due today.
+- Colored output is used for readability in the terminal.
+
